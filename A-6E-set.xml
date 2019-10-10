@@ -7,7 +7,7 @@ Grumman A-6E simulation config.
 ************************************************************************
 -->
 
-<PropertyList>
+<PropertyList include="Aircraft/Generic/Human/Include/walker-include.xml">
 	<sim>
 
 		<startup>
@@ -19,9 +19,25 @@ Grumman A-6E simulation config.
 		<author>Alexis Bory</author>
 		<aero>A-6E-yasim</aero>
 		<fuel-fraction>0.66</fuel-fraction>
-		<description>Grumman A-6E (YASim FDM)</description>
+		<description>Grumman A-6E Intruder (YASim FDM)</description>
+		<long-description>
+   		The Grumman A-6 Intruder is an American, twinjet all-weather attack aircraft built by Grumman Aerospace. In service with the United States Navy and Marine Corps between 1963 and 1997, the Intruder was designed as an all-weather medium attack aircraft to replace the piston-engined Douglas A-1 Skyraider.
+  		</long-description>
 		<virtual-cockpit archive="y">false</virtual-cockpit>
-		<chase-distance-m type="double" archive="y">-30.0</chase-distance-m>
+		<chase-distance-m type="double" archive="y">-35.0</chase-distance-m>
+
+		<previews>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splashes/splash1.png</path>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splashes/splash2.png</path>
+            </preview>
+  		</previews>
 
 		<tags>
 			<tag>bomber</tag>
@@ -72,7 +88,7 @@ Grumman A-6E simulation config.
 				<y-offset-m archive="y">1.32</y-offset-m>
 				<z-offset-m archive="y">-1.66</z-offset-m>
 				<pitch-offset-deg>-10</pitch-offset-deg>
-				<default-field-of-view-deg>57</default-field-of-view-deg>
+				<default-field-of-view-deg>62</default-field-of-view-deg>
 				<limits>
 					<enabled type="bool">true</enabled>
 					<left>

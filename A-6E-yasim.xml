@@ -96,13 +96,13 @@ and filled by a nasal script depending of the speed of the A/C. -->
 
   
 
-<!-- 2 x J52 P8-A/B -->
-  <jet x="-0.20" y="-0.70" z="-0.33" mass="2118" thrust="8660" tsfc="0.371" egt="950">
+<!-- 2 x J52 P8-B -->
+  <jet x="-0.20" y="-0.70" z="-0.33" mass="2118" thrust="9300" tsfc="0.371" egt="950">
     <actionpt x="-9.3" y="-1.03" z="-0.37"/>
     <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
   </jet>
 
-  <jet x="-0.20" y="0.70" z="-0.33" mass="2118" thrust="8660" tsfc="0.371" egt="950">
+  <jet x="-0.20" y="0.70" z="-0.33" mass="2118" thrust="9300" tsfc="0.371" egt="950">
     <actionpt x="-9.3" y="1.03" z="-0.37"/>
     <control-input axis="/controls/engines/engine[1]/throttle" control="THROTTLE"/>
   </jet>
