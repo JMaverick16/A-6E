@@ -24,7 +24,7 @@ Grumman A-6E simulation config.
    		The Grumman A-6 Intruder is an American, twinjet all-weather attack aircraft built by Grumman Aerospace. In service with the United States Navy and Marine Corps between 1963 and 1997, the Intruder was designed as an all-weather medium attack aircraft to replace the piston-engined Douglas A-1 Skyraider.
   		</long-description>
 		<virtual-cockpit archive="y">false</virtual-cockpit>
-		<chase-distance-m type="double" archive="y">-35.0</chase-distance-m>
+		<chase-distance-m type="double" archive="y">-29.0</chase-distance-m>
 
 		<previews>
             <preview>
@@ -88,7 +88,7 @@ Grumman A-6E simulation config.
 				<y-offset-m archive="y">1.32</y-offset-m>
 				<z-offset-m archive="y">-1.66</z-offset-m>
 				<pitch-offset-deg>-10</pitch-offset-deg>
-				<default-field-of-view-deg>62</default-field-of-view-deg>
+				<default-field-of-view-deg>66</default-field-of-view-deg>
 				<limits>
 					<enabled type="bool">true</enabled>
 					<left>
@@ -166,7 +166,7 @@ Grumman A-6E simulation config.
 			<weight-lb>0</weight-lb>
 			<selected>none</selected>
 			<opt><name>none</name><lbs>0</lbs></opt>
-			<opt><name>test</name><lbs>500</lbs></opt>
+			<opt><name>MK-82</name><lbs>500</lbs></opt>
 			<opt><name>300 Gallons Fuel Tank</name><lbs>2016</lbs><gals>300</gals></opt>
 		</weight>
 		<weight n="1">
@@ -175,7 +175,7 @@ Grumman A-6E simulation config.
 			<weight-lb>0</weight-lb>
 			<selected>none</selected>
 			<opt><name>none</name><lbs>0</lbs>  </opt>
-			<opt><name>test</name><lbs>500</lbs></opt>
+			<opt><name>MK-82</name><lbs>500</lbs></opt>
 			<opt><name>300 Gallons Fuel Tank</name><lbs>2016</lbs><gals>300</gals></opt>
 		</weight>
 		<weight n="2">
@@ -184,7 +184,7 @@ Grumman A-6E simulation config.
 			<weight-lb>0</weight-lb>
 			<selected>none</selected>
 			<opt><name>none</name><lbs>0</lbs>  </opt>
-			<opt><name>test</name><lbs>500</lbs></opt>
+			<opt><name>MK-82</name><lbs>500</lbs></opt>
 			<opt><name>300 Gallons Fuel Tank</name><lbs>2016</lbs><gals>300</gals></opt>
 		</weight>
 		<weight n="3">
@@ -193,7 +193,7 @@ Grumman A-6E simulation config.
 			<weight-lb>0</weight-lb>
 			<selected>none</selected>
 			<opt><name>none</name><lbs>0</lbs>  </opt>
-			<opt><name>test</name><lbs>500</lbs></opt>
+			<opt><name>MK-82</name><lbs>500</lbs></opt>
 			<opt><name>300 Gallons Fuel Tank</name><lbs>2016</lbs><gals>300</gals></opt>
 		</weight>
 		<weight n="4">
@@ -202,7 +202,7 @@ Grumman A-6E simulation config.
 			<weight-lb>0</weight-lb>
 			<selected>none</selected>
 			<opt><name>none</name><lbs>0</lbs></opt>
-			<opt><name>test</name><lbs>500</lbs></opt>
+			<opt><name>MK-82</name><lbs>500</lbs></opt>
 			<opt><name>300 Gallons Fuel Tank</name><lbs>2016</lbs><gals>300</gals></opt>
 		</weight>
 
@@ -346,7 +346,7 @@ Grumman A-6E simulation config.
 		</aoa-indexer>
 
 		<help>
-			<title>Grumman A-6E</title>
+			<title>Grumman A-6E Intruder</title>
 			<line>Cruise Speed:      412 kt @ 25000 ft (90% throttle)</line>
 			<line>Max speed:         565 kt at see level</line>
 			<line>Min Speed:         120 kt (full flaps)</line>
@@ -409,7 +409,7 @@ Grumman A-6E simulation config.
 
 	<controls>
 		<flight>
-			<elevator-trim type="double">0.02</elevator-trim>
+			<elevator-trim type="double">0.04</elevator-trim>
 		</flight>
 		<gear>
 			<brake-parking type="bool">1</brake-parking>
